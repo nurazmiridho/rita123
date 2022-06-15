@@ -1,0 +1,259 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Didact Gothic';
+}
+
+.wrapper {
+    width: 1410px;
+    margin: auto;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.logo a {
+    font-size: 35px;
+    font-weight: 800;
+    float: left;
+    font-family: Cooper;
+    color: #282923;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 40px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #ffffff;
+    z-index: 1;
+    border-bottom: 1px solid #282923;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: #282923;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}   
+
+.kolom .deskripsi {
+    font-size: 20px ;
+    font-weight: bold;
+    font-family: 'Didact Gothic';
+    color: #282923;
+}
+
+h2 {
+    font-family: 'Didact Gothic';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #9BA477;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-green {
+    background: #9BA477;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px 15px 10px 15px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-green:hover {
+    background: #282923;
+    text-decoration: none;
+}
+
+a.tbl-blue {
+    background:#9BA477;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px 15px 10px 15px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-blue:hover {
+    background: #282923;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.product-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.new-product {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.new-product img {
+    width: 80%;
+    border-style: 50%;
+}
+
+.new-product p {
+    font-family: 'Didact Gothic';
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: #9BA477;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.team-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nama-team {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.nama-team img {
+    width: 80%;
+    border-style: 50%;
+}
+
+.nama-team p {
+    font-family: 'Didact Gothic';
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: #9BA477;
+}
+
+#contact{
+    background: #FFFFFF;
+    padding: 50px 0px 50px 0px;
+}
+
+.footer{
+    color: #9BA477;
+    width: 100%;
+    position: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section{
+    text-orientation: center;
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3{
+    font-family: Didact Gothic;
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #9BA477;
+    width: 100%;
+    line-height: 50px;
+}
+
+#copyright{
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+}
+
+.logo a {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+nav.menu{
+    width: 100%;
+    margin: 0;
+}
+
+nav. menu ul{
+    text-align: left;
+    margin: auto;
+    line-height: 60px;
+}
+
+nav. menu ul li {
+    display: inline-block;
+    float: none;
+}
